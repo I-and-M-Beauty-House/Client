@@ -1,0 +1,48 @@
+.productDisplay-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .slider {
+        width: 100vw;
+        height: 24vh;
+        background-color: rgb(200, 193, 193);
+        overflow: hidden;
+        position: relative;
+        display: flex;
+        align-items: center; // ✅ Vertically center images
+
+        .slide-track {
+            display: flex;
+            animation: scroll 30s linear infinite;
+            width: fit-content;
+        }
+
+        .slide {
+            width: 250px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            img {
+                width: 120px;
+                height: 120px;
+                cursor: pointer;
+                transition: transform 0.3s ease;
+
+                &:hover {
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}

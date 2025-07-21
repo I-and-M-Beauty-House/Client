@@ -19,8 +19,8 @@ export default function Navigation() {
         <ul className='center'>
           <li><a href="/">Home</a></li>
           <li><a href="/category">Category</a></li>
-          <li><a href="#Contact Us">Contact Us</a></li>
-          <li><a href="/aboutUs">About</a></li>
+          <li><a href="#Contact Us">About</a></li>
+          <li><a href="/aboutUs">Contact Us</a></li>
         </ul>
         <ul className='right'>
           <li>

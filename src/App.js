@@ -1,5 +1,6 @@
 import './App.css';
 import Navigation from './Component/Navigation/Navigation';
+import About from './Pages/About/About';
 import Category from './Pages/Category/Category';
 import Home from './Pages/Home/Home';
 import ProductDisply from './Pages/Product_Display/ProductDisply';
@@ -12,6 +13,7 @@ function App() {
     <Home/>
     <ProductDisply/>
      <Category/>
+     <About/>
    </div>
   );
 }

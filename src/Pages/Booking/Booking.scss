@@ -1,0 +1,102 @@
+.booking-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+    .top{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 700px;
+        height: 250px;
+        // background-color: gray;
+
+        h1{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 45px;
+            color:  rgb(18, 3, 49);
+        }
+
+        p{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 17px;
+            // margin-left: 150px;
+            // margin-right: 150px;
+            text-align: center;
+            margin-top: 20px;
+        }
+    }
+    
+    .bottom{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        grid-gap: 20px;
+        // flex-direction: column;
+        width: 100%;
+        height: 350px;
+        // background-color: greenyellow;
+        // padding: 20px;
+
+        .card-1,
+        .card-2,
+        .card-3{
+            display: flex;
+            // align-items: center;
+            // justify-content: center;
+            flex-direction: column;
+            width: 385px;
+            height: 250px;
+            border: 1px solid black;
+            border-radius: 20px;
+
+            .icon{
+                display: flex;
+                width: 385px;
+                height: 80px;
+                // background-color: pink;
+                font-size: 25px;
+            }
+
+            .topic{
+                display: flex;
+                // width: 385px;
+                // height: 80px;
+                // background-color: pink;
+                font-size: 20px;
+                margin-left: 25px;
+                margin-top: 15px;
+            }
+
+            .name{
+                display: flex;
+                margin-left: 25px;
+                font-size: 15px;
+            }
+            .contact{
+               display: flex;
+               align-items: center;
+               justify-content: center;
+
+               button{
+                width: 275px;
+                height: 30px;
+                margin-top: 20px;
+                // color: rgb(205, 205, 228);
+                font-weight: bold;
+                font-size: 15px;
+                color: rgb(187, 225, 187);
+               }
+            }
+        }
+
+       
+    }
+}

@@ -18,7 +18,7 @@ export default function Navigation() {
         </div>
         <ul className='center'>
           <li><a href="/">Home</a></li>
-          <li><a href="/category">Category</a></li>
+          <li><a href="/Category">Category</a></li>
           <li><a href="#Contact Us">About</a></li>
           <li><a href="/aboutUs">Contact Us</a></li>
         </ul>
@@ -26,14 +26,14 @@ export default function Navigation() {
           <li>
             <a href="#booking">
               <span className="border-anim">
-                BOOK NOW
+                GET IN TOUCH
                 <svg viewBox="0 0 100 40" preserveAspectRatio="none">
                   <rect x="0" y="0" width="100" height="40" rx="5" ry="5"></rect>
                 </svg>
               </span>
             </a>
           </li>
-          <li>
+          {/* <li>
             <a href="#profile">
               <span className="border-anim">
                 Profile
@@ -42,7 +42,7 @@ export default function Navigation() {
                 </svg>
               </span>
             </a>
-          </li>
+          </li> */}
         </ul>
       </nav>
     </div>

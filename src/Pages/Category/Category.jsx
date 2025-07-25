@@ -18,7 +18,7 @@ export default function Category() {
     ];
 
     return (
-        <div className="category-container">
+        <div id='category' className="category-container">
             <div className="main-card">
                 {services.map((service, index) => (
                     <div className="card" key={index}>

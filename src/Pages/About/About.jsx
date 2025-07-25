@@ -4,7 +4,7 @@ import about from '../../Image/About.jpg'
 
 export default function About() {
     return (
-        <div className="about-container">
+        <div id='about' className="about-container">
             <div className="left">
                 {/* <h1>About Us</h1> */}
 

@@ -8,6 +8,7 @@ import NailCategory from './Sub_Category/Nail-category/NailCategory'
 import SkinCareCategory from './Sub_Category/SkinCare_Category/SkinCareCategory'
 import Makeup from './Sub_Category/Makup_Category/Makeup'
 import HairRemoval from './Sub_Category/HairRemoval_Category/HairRemoval'
+import EyeBrowService from './Sub_Category/Eye_Brow_Category/EyeBrowService'
 
 
 
@@ -23,6 +24,7 @@ export default function Section_Container() {
            <SkinCareCategory/>
            <Makeup/>
            <HairRemoval/>
+           <EyeBrowService/>
 
         </div>
     )

@@ -8,7 +8,7 @@ import { MdMarkEmailUnread } from "react-icons/md";
 
 export default function Contact() {
     return (
-        <div className="contact-container">
+        <div id='contact' className="contact-container">
             <div className="left">
                 <h1>GET IN TOUCH</h1>
                 <p>Start Your Journey to Beautiful Hair Today. Contact Us for Expert Hair Care and Personalized Services.</p>

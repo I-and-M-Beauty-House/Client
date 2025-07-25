@@ -19,12 +19,12 @@ export default function Navigation() {
         <ul className='center'>
           <li><a href="/">Home</a></li>
           <li><a href="/Category">Category</a></li>
-          <li><a href="#Contact Us">About</a></li>
-          <li><a href="/aboutUs">Contact Us</a></li>
+          <li><a href="/Contact Us">About</a></li>
+          <li><a href="/#contact">Contact Us</a></li>
         </ul>
         <ul className='right'>
           <li>
-            <a href="#booking">
+            <a href="/booking">
               <span className="border-anim">
                 GET IN TOUCH
                 <svg viewBox="0 0 100 40" preserveAspectRatio="none">

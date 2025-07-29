@@ -19,13 +19,7 @@ export default function Section_Container() {
             <Category />
             <About />
             <Contact />
-           <HairCategory/>
-           <NailCategory/>
-           <SkinCareCategory/>
-           <Makeup/>
-           <HairRemoval/>
-           <EyeBrowService/>
-
+           
         </div>
     )
 }

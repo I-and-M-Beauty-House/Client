@@ -9,19 +9,20 @@ import eyebrowServise from '../../Image/Eyebrow-service.jpg'
 
 export default function Category() {
     const services = [
-        { image: hairServise, name: 'Hair Service' },
-        { image: nailServise, name: 'Nail Service' },
-        { image: skinCareServise, name: 'Skin Care Service' },
-        { image: makeupServise, name: 'Makeup Service' },
-        { image: hairRemovalServise, name: 'Hair Removal Service' },
-        { image: eyebrowServise, name: 'Eye & Brow Service' }
+        { image: hairServise, name: 'Hair Service', link:"/hair" },
+        { image: nailServise, name: 'Nail Service', link:"/nail" },
+        { image: skinCareServise, name: 'Skin Care Service', link:"/skin-care" },
+        { image: makeupServise, name: 'Makeup Service', link:"/makaup" },
+        { image: hairRemovalServise, name: 'Hair Removal Service', link:"/hair-removal" },
+        { image: eyebrowServise, name: 'Eye & Brow Service', link:"/eyebrow" }
     ];
 
     return (
         <div id='category' className="category-container">
             <div className="main-card">
                 {services.map((service, index) => (
-                    <div className="card" key={index}>
+                   <a href={service.link} key={index}>
+                     <div className="card" >
                         <div className="image">
                             <img src={service.image} alt={service.name} />
                         </div>
@@ -29,6 +30,7 @@ export default function Category() {
                             <p>{service.name}</p>
                         </div>
                     </div>
+                    </a>
                 ))}
             </div>
         </div>

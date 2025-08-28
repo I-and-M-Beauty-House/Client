@@ -21,7 +21,7 @@ export default function Category() {
         <div id='category' className="category-container">
             <div className="main-card">
                 {services.map((service, index) => (
-                   <a href={service.link} key={index}>
+                   <a style={{textDecoration:"none", }} href={service.link} key={index}>
                      <div className="card" >
                         <div className="image">
                             <img src={service.image} alt={service.name} />
